@@ -50,7 +50,7 @@
   }
 
   .book-btn {
-    @apply bg-dark-600 mt-3 min-h-14 w-full font-bebas-neue text-base text-primary;
+    @apply mt-3 bg-dark-100 min-h-14 w-full font-bebas-neue text-base text-primary;
   }
 
   /* Borrowed Book */
@@ -71,11 +71,7 @@
     @apply w-[55px] h-[76px];
   }
 
-  .book-cover_medium {
-    @apply w-[144px] h-[199px];
-  }
-
-  .book-cover_regular {
+  .book-cover {
     @apply xs:w-[174px] w-[114px] xs:h-[239px] h-[169px];
   }
 
