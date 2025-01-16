@@ -9,7 +9,7 @@ const Header = ({ session }: { session: Session }) => {
             {session?.user?.name}
           </h2>
           <p className="text-base text-slate-500">
-            Monitor all of yout users and books here
+            Monitor all of your users and books here
           </p>
         </div>
         {/* <p>Search</p> */}
