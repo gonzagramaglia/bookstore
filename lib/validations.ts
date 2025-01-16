@@ -18,13 +18,7 @@ export const bookSchema = z.object({
   description: z.string().trim().min(10).max(1000),
   author: z.string().trim().min(2).max(100),
   genre: z.string().trim().min(2).max(50),
-  rating: z.coerce
-    .number()
-    .min(1)
-    .max(5)
-    .refine((val) => Number(val.toFixed(1)) === val, {
-      message: "Rating must have only one decimal place",
-    }),
+  rating: z.coerce.number().min(1).max(5),
   totalCopies: z.coerce.number().int().positive().lte(10000),
   coverUrl: z.string().nonempty(),
   coverColor: z
