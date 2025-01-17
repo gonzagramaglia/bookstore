@@ -22,6 +22,13 @@
       "when": 1737061034520,
       "tag": "0002_premium_bucky",
       "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1737096745298,
+      "tag": "0003_legal_randall_flagg",
+      "breakpoints": true
     }
   ]
 }
